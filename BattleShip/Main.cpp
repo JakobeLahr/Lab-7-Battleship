@@ -93,7 +93,7 @@ void startGrid(char grid[GRID_SIZE][GRID_SIZE]) {
     }
 }
 
-void displayGrid(const char grid[GRID_SIZE][GRID_SIZE], const string& label) {           //i hate strings after this
+void displayGrid(const char grid[GRID_SIZE][GRID_SIZE], const string& label) {           //i hate arrays after this
     cout << label << endl;
     cout << "  ";
     for (int i = 0; i < GRID_SIZE; i++) {
